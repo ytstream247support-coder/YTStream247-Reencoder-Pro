@@ -1,0 +1,26 @@
+**/__pycache__/
+*.mp4
+*.ts
+
+# Python/tooling
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Local/cloud tooling caches
+.wrangler/
+
+# Build artifacts
+build/
+dist/
+*.AppImage
+*.dmg
+*.exe
+
+# Local FFmpeg staging binaries used for installer assembly
+ffmpeg-apps/*
+!ffmpeg-apps/.gitkeep
+mac-ffmpeg/*
+!mac-ffmpeg/.gitkeep

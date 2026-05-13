@@ -1,0 +1,83 @@
+YT Stream 247 — Reencoder - First Run on macOS
+=================================================
+
+HOW TO INSTALL
+--------------
+1. Drag "YT Stream 247 — Reencoder" into the Applications folder
+   (shortcut on the right side of this window).
+2. Close this window and eject the disk image from Finder.
+
+
+HOW TO OPEN THE FIRST TIME
+==========================
+macOS will block the app the first time because it is not signed with an
+Apple Developer ID. This is expected and safe.
+
+The exact steps depend on your macOS version. Find your version in the
+Apple menu -> About This Mac, then follow the matching section below.
+
+
+-------------------------------------------------------------
+FOR macOS 14 (Sonoma) AND macOS 13 (Ventura)
+-------------------------------------------------------------
+1. Open the Applications folder.
+2. RIGHT-CLICK (or Control-click) on "YT Stream 247 — Reencoder".
+3. Choose "Open" from the menu.
+4. A dialog appears -> click the "Open" button.
+5. Done. The app launches and will open normally next time.
+
+
+-------------------------------------------------------------
+FOR macOS 15 (Sequoia) AND macOS 26 (Tahoe)
+-------------------------------------------------------------
+On these versions Apple removed the "Open" button from the first dialog.
+You will see only "Move to Trash" and "Done". Do NOT click Move to Trash.
+
+1. Open the Applications folder.
+2. Try to open "YT Stream 247 — Reencoder" (double-click or right-click ->
+   Open). A dialog says "Apple could not verify ... is free of malware".
+3. Click "Done" to close the dialog.
+4. Open System Settings (Apple menu -> System Settings).
+5. Click "Privacy & Security" in the left sidebar.
+6. Scroll the right pane all the way down.
+7. You will see a message:
+      "YT Stream 247 — Reencoder" was blocked to protect your Mac.
+   Click the "Open Anyway" button next to it.
+8. Enter your Mac password when asked.
+9. Go back to Applications and open the app.
+10. A new dialog appears with an "Open" button -> click "Open".
+11. Done. The app launches and will open normally next time.
+
+
+-------------------------------------------------------------
+EASY METHOD (ALL macOS VERSIONS) - For users comfortable with Terminal
+-------------------------------------------------------------
+Open Terminal (Applications -> Utilities -> Terminal) and paste this
+command, then press Enter:
+
+    xattr -cr "/Applications/YT Stream 247 — Reencoder.app"
+
+After this, just double-click the app normally. No dialogs at all.
+
+
+REQUIREMENTS
+------------
+- macOS 13 (Ventura) or later
+- Works on both Intel and Apple Silicon (M1 / M2 / M3 / M4) Macs
+- No additional software required - FFmpeg is bundled inside the app
+
+
+WHY DO I SEE THIS WARNING?
+--------------------------
+We have not yet purchased an Apple Developer ID code-signing certificate
+($99/year). macOS treats unsigned apps as "unverified". The app itself is
+safe - the warning is purely about who signed it, not what the app does.
+
+
+SUPPORT
+-------
+If you still have problems after following the steps above, contact
+support with:
+- Your macOS version (Apple menu -> About This Mac)
+- Whether your Mac is Intel or Apple Silicon
+- A description of the problem and any error message
